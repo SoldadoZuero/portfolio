@@ -8,6 +8,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Django Rest Framework app
     "rest_framework",
+    # Tailwind app
+    "tailwind",
+    "theme",
     # My apps
     "principal",
 ]
