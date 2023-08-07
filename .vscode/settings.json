@@ -4,9 +4,12 @@
     },
     "python.formatting.provider": "none",
     "cSpell.words": [
+        "allura",
         "CHROMEDRIVER",
         "dotenv",
+        "marck",
         "middlewares",
+        "parisienne",
         "tailwindcss"
     ]
 }

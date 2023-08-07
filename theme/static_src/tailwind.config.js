@@ -50,7 +50,11 @@ module.exports = {
             }
         },
         fontFamily: {
+            allura: ['Allura', 'cursive'],
+            courgette: ['Courgette', 'cursive'],
             lobster: ['Lobster', 'cursive'],
+            marckScript: ['Marck Script', 'cursive'],
+            parisienne: ['Parisienne', 'cursive'],
             satisfy: ['Satisfy', 'cursive'],
         },
     },
