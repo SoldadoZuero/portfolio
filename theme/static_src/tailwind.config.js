@@ -19,6 +19,7 @@ module.exports = {
          * Adjust the following line to match your project structure.
          */
         '../../templates/**/*.html',
+        '../../base_templates/**/*.html',
 
         /*
          * Templates in other django apps (BASE_DIR/<any_app_name>/templates).
@@ -46,7 +47,8 @@ module.exports = {
         extend: {
             spacing: {
                 '1': '1rem',
-                fitContent: 'fit-content',
+                none: 'none',
+                neg1: '-1rem'
             }
         },
         fontFamily: {
