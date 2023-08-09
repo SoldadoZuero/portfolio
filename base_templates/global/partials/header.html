@@ -1,14 +1,23 @@
-<header class="tw-bg-contain tw-max-w-7xl tw-max-h-7 tw-p-fit">
+<header class="tw-py-6 tw-pl-6 tw-p-fit tw-bg-transparent">
     <div>
-        <h1 class="tw-font-lobster tw-float-left tw-text-left tw-w-fit tw-p-2 tw-p-fit"
-        >
-            SoldadoZuero
+        <h1>
+            <a class="tw-font-lobster tw-w-fit tw-p-2" href="{% url 'principal:home' %}">
+                SoldadoZuero
+            </a>
+            <div class="tw-float-right tw-inline-table">
+                <a class="tw-px-8 tw-font-satisfy tw-pb-5 hover:tw-bg-purple-900
+                tw-transition tw-duration-300 tw-pt-7 tw-bg-opacity-20 hover:tw-text-white
+                "> Projects</a>
+                <a class="tw-px-8 tw-font-satisfy tw-pb-5 hover:tw-bg-purple-900
+                tw-transition tw-duration-300 tw-pt-7 tw-bg-opacity-20 hover:tw-text-white
+                "> Works</a>
+                <a class="tw-px-8 tw-font-satisfy tw-pb-5 hover:tw-bg-purple-900
+                tw-transition tw-duration-300 tw-pt-7 tw-bg-opacity-20 hover:tw-text-white
+                "> Experience</a>
+                <a class="tw-px-8 tw-font-satisfy tw-pb-5 hover:tw-bg-purple-900
+                tw-transition tw-duration-300 tw-pt-7 tw-bg-opacity-20 hover:tw-text-white
+                "> Contact</a>
+            </div>
         </h1>
-        <ul class="tw-text-right tw-font-satisfy tw-p-2 tw-p-fit tw-ml-1">
-            <li class="tw-px-8 tw-float-right"> Contact</li>
-            <li class="tw-px-8 tw-float-right"> Experience</li>
-            <li class="tw-px-8 tw-float-right"> Works</li>
-            <li class="tw-px-8 tw-float-right"> Projects</li>
-        </ul>
     </div>
 </header>

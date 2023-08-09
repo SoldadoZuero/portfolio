@@ -46,7 +46,7 @@ module.exports = {
     theme: {
         extend: {
             spacing: {
-                '1': '1rem',
+                '1re': '1rem',
                 none: 'none',
                 neg1: '-1rem'
             }
