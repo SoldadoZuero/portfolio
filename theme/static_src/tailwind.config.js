@@ -45,19 +45,28 @@ module.exports = {
     prefix: 'tw-',
     theme: {
         extend: {
-            spacing: {
-                '1re': '1rem',
-                none: 'none',
-                neg1: '-1rem'
+            zIndex: {
+                '1': '1',
+                '2': '2',
+                '3': '3',
+                '4': '4',
+                '5': '5',
+            },
+            backgroundImage: {
+                'homepage-pattern': "url(/media/17450.jpg)"
+            },
+            backgroundSize: {
+                '100%': '100%'
             }
         },
         fontFamily: {
-            allura: ['Allura', 'cursive'],
+            tilt_prism: ['Tilt Prism', 'cursive'],
             courgette: ['Courgette', 'cursive'],
             lobster: ['Lobster', 'cursive'],
-            marckScript: ['Marck Script', 'cursive'],
-            parisienne: ['Parisienne', 'cursive'],
+            poiret_one: ['Poiret One', 'cursive'],
+            fredericka: ['Fredericka the Great', 'cursive'],
             satisfy: ['Satisfy', 'cursive'],
+            rem: ['REM', 'sans-serif'],
         },
     },
     plugins: [
