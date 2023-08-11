@@ -45,6 +45,9 @@ module.exports = {
     prefix: 'tw-',
     theme: {
         extend: {
+            spacing: {
+                'header-34px': '34px',
+            },
             zIndex: {
                 '1': '1',
                 '2': '2',
