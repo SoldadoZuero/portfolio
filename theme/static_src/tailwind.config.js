@@ -45,8 +45,15 @@ module.exports = {
     prefix: 'tw-',
     theme: {
         extend: {
+            colors: {
+                'chrysler_blue': '#4923DE',
+                'madder': '#9E0031',
+                'chocolate_cosmos': '#44001A',
+                'persian_green': '#1B998B',
+                'non_photo_blue': '#8AC6D0',
+            },
             spacing: {
-                'header-34px': '34px',
+                'header-36px': '36px',
             },
             zIndex: {
                 '1': '1',
@@ -70,6 +77,7 @@ module.exports = {
             fredericka: ['Fredericka the Great', 'cursive'],
             satisfy: ['Satisfy', 'cursive'],
             rem: ['REM', 'sans-serif'],
+            limelight: ['Limelight', 'cursive']
         },
     },
     plugins: [
