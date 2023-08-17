@@ -51,6 +51,8 @@ module.exports = {
                 'chocolate_cosmos': '#44001A',
                 'persian_green': '#1B998B',
                 'non_photo_blue': '#8AC6D0',
+                'razzmatazz': '#E40066',
+                'ultra_violet': '#484D6D',
             },
             spacing: {
                 'header-36px': '36px',
