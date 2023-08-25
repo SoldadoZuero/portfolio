@@ -56,6 +56,8 @@ module.exports = {
             },
             spacing: {
                 'header-36px': '36px',
+                'bgy-code': '323px',
+                'bgx-code': '768px',
             },
             zIndex: {
                 '1': '1',
@@ -65,7 +67,7 @@ module.exports = {
                 '5': '5',
             },
             backgroundImage: {
-                'homepage-pattern': "url(/media/17450.jpg)"
+                'header_code': "url(/media/header-code.png)"
             },
             backgroundSize: {
                 '100%': '100%'
